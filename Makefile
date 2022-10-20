@@ -4,3 +4,5 @@ brain-games:
 	./bin/brain-games
 validate:
 	composer validate
+autoload:
+	composer dump-autoload
