@@ -25,7 +25,7 @@ function startGame($description, callable $importGameData)
         $gameData = $importGameData();
         $question = $gameData[0];
         $rightAnswer = $gameData[1];
-        line("Question: %s!", $question);
+        line("Question: %s", $question);
 
         $answer = prompt('Your answer: ');
 
@@ -34,7 +34,7 @@ function startGame($description, callable $importGameData)
             $rightAnswerCount += 1;
         } else {
             line("'%s' is wrong answer ;(. Correct answer was '%s'.", $answer, $rightAnswer);
-            line("Let's try again, %s", $userName);
+            line("Let's try again, %s!", $userName);
             return;
         }
     }
