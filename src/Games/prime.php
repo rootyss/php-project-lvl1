@@ -26,6 +26,6 @@ function buildPrimeGame()
         return [$question, $rightAnswer];
     };
 
-    $description = 'Answer "yes" if given number is prime. Otherwise answer "no"';
+    $description = 'Answer "yes" if given number is prime. Otherwise answer "no".';
     startGame($description, $genGameQuestion);
 }
