@@ -6,7 +6,7 @@ use function BrainGames\Index\startGame;
 
 const DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".';
 
-function isEven($number): bool
+function isEven(int $number): bool
 {
         return $number % 2 === 0;
 }

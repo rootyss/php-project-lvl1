@@ -4,7 +4,7 @@ namespace BrainGames\Games\Gcd;
 
 use function BrainGames\Index\startGame;
 
-function findGcd($firstInt, $secondInt)
+function findGcd(int $firstInt, int $secondInt)
 {
     $a = $firstInt;
     $b = $secondInt;

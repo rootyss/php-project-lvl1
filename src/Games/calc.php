@@ -5,7 +5,7 @@ namespace BrainGames\Games\Calc;
 use function BrainGames\Index\startGame;
 use function cli\line;
 
-function getCorrectAnswer($operator, $operand1, $operand2)
+function getCorrectAnswer(string $operator, int $operand1, int $operand2)
 {
     switch ($operator) {
         case '+':

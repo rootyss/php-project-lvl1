@@ -4,7 +4,7 @@ namespace BrainGames\Games\Progression;
 
 use function BrainGames\Index\startGame;
 
-function generateProgression($firstElement, $progressionLength, $progressionStep): array
+function generateProgression(int $firstElement, int $progressionLength, int $progressionStep): array
 {
     $progression = [$firstElement];
     for ($i = 1; $i <= $progressionLength; $i += 1) {
@@ -13,7 +13,7 @@ function generateProgression($firstElement, $progressionLength, $progressionStep
     return $progression;
 }
 
-function genQuestionGame($progression, $index): string
+function genQuestionGame(array $progression, int $index): string
 {
     $question = $progression;
     $question[$index] = '..';

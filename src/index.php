@@ -12,7 +12,7 @@ function meetingUser(): string
     return $name;
 }
 
-function startGame($description, callable $importGameData)
+function startGame(string $description, callable $importGameData)
 {
     $roundsCount = 3;
     line('Welcome to the Brain Games!');
