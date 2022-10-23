@@ -4,6 +4,8 @@ namespace BrainGames\Games\Even;
 
 use function BrainGames\Index\startGame;
 
+const DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".';
+
 function isEven($number): bool
 {
         return $number % 2 === 0;
@@ -17,7 +19,7 @@ function buildEvenGame()
 
         return [$question, $rightAnswer];
     };
-    $description = 'Answer "yes" if the number is even, otherwise answer "no".';
 
-    startGame($description, $genGameQuestion);
+
+    startGame(DESCRIPTION, $genGameQuestion);
 }
