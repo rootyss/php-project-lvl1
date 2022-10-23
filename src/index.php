@@ -33,7 +33,7 @@ function startGame($description, callable $importGameData)
             line("Correct!");
             $rightAnswerCount += 1;
         } else {
-            line("%s is wrong answer ;(. Correct answer was %s", $answer, $rightAnswer);
+            line("'%s' is wrong answer ;(. Correct answer was '%s'", $answer, $rightAnswer);
             line("Let's try again, %s", $userName);
             return;
         }
