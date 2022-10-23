@@ -38,5 +38,5 @@ function startGame($description, callable $importGameData)
             return;
         }
     }
-    line("Congratulations, %s", $userName);
+    line("Congratulations, %s!", $userName);
 }
