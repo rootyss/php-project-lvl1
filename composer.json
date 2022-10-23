@@ -9,11 +9,11 @@
         "files": [
             "src/Cli.php",
             "src/index.php",
-            "src/games/even.php",
-            "src/games/calc.php",
-            "src/games/gcd.php",
-            "src/games/progression.php",
-            "src/games/prime.php"
+            "src/Games/even.php",
+            "src/Games/calc.php",
+            "src/Games/gcd.php",
+            "src/Games/progression.php",
+            "src/Games/prime.php"
         ]
     },
     "authors": [
