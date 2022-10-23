@@ -15,7 +15,7 @@ function meetingUser()
 function startGame($description, callable $importGameData)
 {
     $roundsCount = 3;
-    line('Welcome to the Brain Game!');
+    line('Welcome to the Brain Games!');
     $userName = meetingUser();
     line($description);
 
